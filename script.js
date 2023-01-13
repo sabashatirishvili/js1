@@ -20,12 +20,10 @@ function oddNumbers (until) {
 			}
 		}
 	} else {
+		
 	}
 }
 
 oddNumbers(0);
 
 
-/*1. odd numbers
-2. print numbers as strings
-3. prints factorial of a number */
