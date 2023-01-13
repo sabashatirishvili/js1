@@ -1,29 +1,23 @@
 "use strict";
-
-/* for (let n = 0; n < 2302; n++) {
-	if (n % 2 != 0) {
-		console.log(n);
-	}
-} */
-
-function oddNumbers (until) {
-	if (until >= 0) {
-		for (let i = 1; i < until; i++) {
-			if (n % 2 != 0) {
-				console.log(n);
-			}
-		}
-	} else if (until <= 0) {
-		for (let n = 1; n > until; n--) {
-			if (n % 2 != 0) {
-				console.log(n);
-			}
-		}
-	} else {
-		
+let oddNumInput;
+let numToTextInput;
+let factorialInput;
+let operation = prompt("Operation (Odd numbers to n, Number to text, Factorial)", "Odd numbers to n");
+while (true) {
+	switch(operation) {
+		case "Odd numbers from 1 to n":
+			oddNumInput = prompt("To");
+			break;
+		case "Number to text":
+			numToTextInput = prompt("Number:");
+			break;
+		case "Factorial": 
+		factorialInput = prompt("n:");
+		break;
 	}
 }
+/*function oddNumbers(oddNumTo) {
+	for(let n = 0; n < oddNumInput, n+=2) {
 
-oddNumbers(0);
-
-
+	}
+}*/
