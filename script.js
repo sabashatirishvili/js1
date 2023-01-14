@@ -5,7 +5,7 @@ function factorial(num) {
 	}
 }
 
-console.log(factorial(8));
+print(factorial(8));
 /*function oddNumbers(oddNumTo) {
 	for(let n = 0; n < oddNumInput, n+=2) {
 
