@@ -1,13 +1,19 @@
 "use strict";
-function factorial(num) {
-	for (let i = 1; i < num; i++) {
-		num*=i;
+let factorial = (num) => {
+	let result = 1;
+	for (let i = 0; i <= num; i++) {
+		result *= i;
 	}
+	return result;
 }
 
-print(factorial(8));
-/*function oddNumbers(oddNumTo) {
-	for(let n = 0; n < oddNumInput, n+=2) {
+function oddNum(target) {
+	let strVar = "";
+	for (let i = 1; i < target; i+=2) {
+		strVar+= " " + i;
+		//alert(i);
+	} 
+	alert(strVar);
+}
 
-	}
-}*/
+oddNum(200);
