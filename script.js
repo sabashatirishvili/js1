@@ -1,10 +1,13 @@
 "use strict";
-let factorial = (num) => {
+function factorial(num) {
 	let result = 1;
-	for (let i = 0; i <= num; i++) {
-		result *= i;
+	if(num==1 || num==0) {
+		return 1;
 	}
-	return result;
+	for (let i = num - 1; i >= 1; i--)  {
+		num*=i;
+	}
+	return num;
 }
 
 function oddNum(target) {
@@ -15,5 +18,6 @@ function oddNum(target) {
 	} 
 	alert(strVar);
 }
+alert(factorial(5));
 
 oddNum(200);
