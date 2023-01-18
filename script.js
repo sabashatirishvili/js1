@@ -44,9 +44,41 @@ function numToText(number) {
 			7:"Seven",
 			8:"Eight",
 			9:"Nine"
+		},
+		tens: {
+			10: "Ten",
+			20: "Twenty",
+			30: "Thirty",
+			40: "Forty",
+			50: "Fifty",
+			60: "Sixty",
+			70: "Seventy",
+			80: "Eighty",
+			90: "Ninety",
+		},
+		teens: {
+			11:"Eleven",
+			12: "Twelve",
+			13: "Thirteen",
+			14:"Fourteen",
+			15:"Fifteen",
+			16: "Sixteen",
+			17:"Seventeen",
+			18:"Eighteen",
+			19:"Nineteen",
+		},
+		id: {
+			hundred:"Hundred",
+			thousand: "Thousand",
+			million: "Million"
 		}
 	}
- } 
+	let splitNum = number.split();
+	let lng = splitNum.length;
+	if(lng===1) {
+		return splitNum[0].numbers
+	}
+ }
 }
 alert(factorial(5));
 
