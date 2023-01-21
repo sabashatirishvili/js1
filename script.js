@@ -32,7 +32,46 @@ function oddNum(target) {
 	}
 	alert(strVar);
 }
-function numToText(number) {
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function numToText(number) {
 	const numbers = {
 		ones: {
 			1:"One",
@@ -73,13 +112,10 @@ function numToText(number) {
 			million: "Million"
 		}
 	}
-	let splitNum = number.split();
-	let lng = splitNum.length;
-	if(lng===1) {
-		return splitNum[0].numbers
-	}
+	return(numbers.)
  }
 }
 alert(factorial(5));
 
 oddNum(200);
+*/
