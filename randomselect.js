@@ -1,4 +1,34 @@
-function randomselect(arr1, arr2) {
+let count = 13;
+let figmaJob;
+let personID;
+
+personID  = Math.floor(Math.random()*count+1);
+figmaJob  = Math.floor(Math.random()*count+1);
+
+document.getElementById("person").innerHTML = personID;
+document.getElementById("job").innerHTML = figmaJob;
+
+11
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function randomselect(arr1, arr2) {
 	let obj;
 	arr1 = arr1.sort(function() {
 		return Math.random() - 0.5;
@@ -14,4 +44,4 @@ function randomselect(arr1, arr2) {
 }
 let arr1 = [1, 2, 3, 4, 5, 6];
 let arr2 = [1, 2, 3, 4, 5, 6];
-randomselect(arr1, arr2);
+randomselect(arr1, arr2);*/

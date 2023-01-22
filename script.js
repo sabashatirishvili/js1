@@ -29,6 +29,8 @@ alert(strVar);
 }
 
 
+document.getElementById("output") = 1 + 9999;
+
 
 
 
