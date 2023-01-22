@@ -8,7 +8,9 @@ figmaJob  = Math.floor(Math.random()*count+1);
 document.getElementById("person").innerHTML = personID;
 document.getElementById("job").innerHTML = figmaJob;
 
-11
+//1. ამ დავალების დასრულება
+//2. სახელების JSON ფორმატში შეტანა
+
 
 
 
