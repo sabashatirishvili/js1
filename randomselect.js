@@ -9,7 +9,8 @@ document.getElementById("person").innerHTML = personID;
 document.getElementById("job").innerHTML = figmaJob;
 
 //1. ამ დავალების დასრულება
-//2. სახელების JSON ფორმატში შეტანა
+//2. სახელების JSON ფორმატში შეტანა.
+//10(*) - 12(მარიამი)
 
 
 
